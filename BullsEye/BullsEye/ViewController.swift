@@ -9,6 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var targetLabel: UILabel!
     @IBOutlet weak var slider: UISlider!
     var currentValue: Int = 50
     var targetValue = 0
@@ -23,6 +24,11 @@ class ViewController: UIViewController {
         targetValue = Int.random(in: 1...100)
         currentValue = 50
         slider.value = Float(currentValue)
+        updateLabels()
+    }
+    
+    func updateLabels(){
+        targetLabel.text = String(targetValue)
     }
     
     @IBAction func showAlert(){

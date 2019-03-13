@@ -63,14 +63,18 @@ class ViewController: UIViewController {
         let alert = UIAlertController(title: title,
                                       message: message,
                                       preferredStyle: .alert)
-    
+        // the event button on the alert modal
+        // third parameter is what executes when modal is dismissed, also known as callback
+        // The handler is being passed a closure,a method without a namew
         let action = UIAlertAction(title: "OK",
                                    style: .default,
-                                   handler: nil)
+                                   handler: { _ in
+                                                    self.startNewRound()
+                                            })
         
         alert.addAction(action)
         present(alert, animated: true, completion: nil)
-        startNewRound()
+    
     }
     
     @IBAction func sliderMoved(_ slider: UISlider){

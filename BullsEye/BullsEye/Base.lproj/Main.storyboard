@@ -57,6 +57,9 @@
                                 <rect key="frame" x="57" y="244" width="71" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Start Over"/>
+                                <connections>
+                                    <action selector="startOver" destination="BYZ-38-t0r" eventType="touchUpInside" id="N9W-Rv-COx"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Score:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MHq-ec-Ztt">
                                 <rect key="frame" x="173" y="249" width="50" height="21"/>

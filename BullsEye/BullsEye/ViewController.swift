@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     var round: Int = 0
     override func viewDidLoad() {
         super.viewDidLoad()
-        startNewRound()
+        startNewGame()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -79,6 +79,12 @@ class ViewController: UIViewController {
     
     @IBAction func sliderMoved(_ slider: UISlider){
         currentValue = lroundf(slider.value)
+    }
+    
+    @IBAction func startNewGame(){
+        score = 0
+        round = 0
+        startNewRound()
     }
 }
 

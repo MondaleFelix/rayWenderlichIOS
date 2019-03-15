@@ -114,7 +114,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="InfoButton" backgroundImage="SmallButton"/>
                                 <connections>
-                                    <segue destination="2fb-4X-UBO" kind="presentation" id="lTw-oS-vUX"/>
+                                    <segue destination="2fb-4X-UBO" kind="presentation" modalTransitionStyle="flipHorizontal" id="lTw-oS-vUX"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bn0-8T-bUB">

@@ -104,6 +104,8 @@ class ViewController: UIViewController {
         score = 0
         round = 0
         startNewRound()
+        
+        // Crossfade animation
         let transition = CATransition()
         transition.type = CATransitionType.fade
         transition.duration = 1

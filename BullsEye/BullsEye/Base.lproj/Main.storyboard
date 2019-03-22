@@ -191,16 +191,16 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="OE2-c3-ba7" firstAttribute="top" secondItem="eqy-Y0-6gq" secondAttribute="bottom" constant="8" id="5ZL-VU-gtZ"/>
-                            <constraint firstItem="TCO-bV-X6t" firstAttribute="trailing" secondItem="eqy-Y0-6gq" secondAttribute="trailing" constant="20" id="AOW-LO-35d"/>
                             <constraint firstItem="OE2-c3-ba7" firstAttribute="centerX" secondItem="k5o-wa-Bke" secondAttribute="centerX" id="B0r-ZX-Qrz"/>
-                            <constraint firstItem="eqy-Y0-6gq" firstAttribute="top" secondItem="TCO-bV-X6t" secondAttribute="top" constant="20" id="BrD-BY-gED"/>
+                            <constraint firstItem="eqy-Y0-6gq" firstAttribute="leading" secondItem="TCO-bV-X6t" secondAttribute="leading" constant="20" id="HrV-Ne-yKc"/>
                             <constraint firstItem="srY-sM-ttV" firstAttribute="trailing" secondItem="TCO-bV-X6t" secondAttribute="trailing" id="Kxw-i9-dyM"/>
-                            <constraint firstItem="eqy-Y0-6gq" firstAttribute="leading" secondItem="TCO-bV-X6t" secondAttribute="leading" constant="20" id="WIA-zy-AfB"/>
                             <constraint firstItem="srY-sM-ttV" firstAttribute="top" secondItem="TCO-bV-X6t" secondAttribute="top" id="aFd-8V-qA8"/>
+                            <constraint firstItem="OE2-c3-ba7" firstAttribute="top" secondItem="eqy-Y0-6gq" secondAttribute="bottom" constant="8" id="beU-Qp-Vfz"/>
                             <constraint firstItem="TCO-bV-X6t" firstAttribute="bottom" secondItem="OE2-c3-ba7" secondAttribute="bottom" constant="20" id="goY-Zt-BVW"/>
+                            <constraint firstItem="eqy-Y0-6gq" firstAttribute="top" secondItem="TCO-bV-X6t" secondAttribute="top" constant="20" id="jcl-9c-ueN"/>
                             <constraint firstItem="srY-sM-ttV" firstAttribute="leading" secondItem="TCO-bV-X6t" secondAttribute="leading" id="tqb-XO-nBc"/>
                             <constraint firstItem="srY-sM-ttV" firstAttribute="bottom" secondItem="TCO-bV-X6t" secondAttribute="bottom" id="xlq-bn-SSP"/>
+                            <constraint firstItem="TCO-bV-X6t" firstAttribute="trailing" secondItem="eqy-Y0-6gq" secondAttribute="trailing" constant="20" id="z1O-Nu-rld"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="TCO-bV-X6t"/>
                     </view>

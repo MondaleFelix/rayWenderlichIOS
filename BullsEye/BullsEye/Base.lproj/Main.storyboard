@@ -164,9 +164,8 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="srY-sM-ttV">
                                 <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                             </imageView>
-                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eqy-Y0-6gq">
-                                <rect key="frame" x="20" y="20" width="528" height="214"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eqy-Y0-6gq">
+                                <rect key="frame" x="20" y="20" width="528" height="235"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <wkWebViewConfiguration key="configuration">
                                     <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
@@ -192,8 +191,12 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="OE2-c3-ba7" firstAttribute="top" secondItem="eqy-Y0-6gq" secondAttribute="bottom" constant="8" id="5ZL-VU-gtZ"/>
+                            <constraint firstItem="TCO-bV-X6t" firstAttribute="trailing" secondItem="eqy-Y0-6gq" secondAttribute="trailing" constant="20" id="AOW-LO-35d"/>
                             <constraint firstItem="OE2-c3-ba7" firstAttribute="centerX" secondItem="k5o-wa-Bke" secondAttribute="centerX" id="B0r-ZX-Qrz"/>
+                            <constraint firstItem="eqy-Y0-6gq" firstAttribute="top" secondItem="TCO-bV-X6t" secondAttribute="top" constant="20" id="BrD-BY-gED"/>
                             <constraint firstItem="srY-sM-ttV" firstAttribute="trailing" secondItem="TCO-bV-X6t" secondAttribute="trailing" id="Kxw-i9-dyM"/>
+                            <constraint firstItem="eqy-Y0-6gq" firstAttribute="leading" secondItem="TCO-bV-X6t" secondAttribute="leading" constant="20" id="WIA-zy-AfB"/>
                             <constraint firstItem="srY-sM-ttV" firstAttribute="top" secondItem="TCO-bV-X6t" secondAttribute="top" id="aFd-8V-qA8"/>
                             <constraint firstItem="TCO-bV-X6t" firstAttribute="bottom" secondItem="OE2-c3-ba7" secondAttribute="bottom" constant="20" id="goY-Zt-BVW"/>
                             <constraint firstItem="srY-sM-ttV" firstAttribute="leading" secondItem="TCO-bV-X6t" secondAttribute="leading" id="tqb-XO-nBc"/>

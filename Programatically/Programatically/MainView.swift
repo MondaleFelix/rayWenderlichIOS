@@ -23,14 +23,14 @@ class MainView: UIView {
     }()
     private let label: UILabel = {
         let label = UILabel(frame: .zero)
-        label.text = "SUPREME"
+        label.text = ""
         label.textAlignment = .center
         return label
     }()
     
     private lazy var button: UILabel = {
         let button = UILabel(frame: .zero)
-        button.text = "BUY"
+        button.text = " "
         let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(buttonTapped))
         button.addGestureRecognizer(tapGestureRecognizer)
         button.isUserInteractionEnabled = true

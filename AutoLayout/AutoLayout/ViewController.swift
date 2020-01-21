@@ -43,6 +43,21 @@ class ViewController: UIViewController {
     }
     
     private func setupLayout(){
+        
+        let topImageContainerView = UIView()
+        topImageContainerView.backgroundColor = .blue
+        view.addSubview(topImageContainerView)
+//        topImageContainerView.frame = CGRect(x: <#T##CGFloat#>, y: <#T##CGFloat#>, width: <#T##CGFloat#>, height: <#T##CGFloat#>)
+        
+        // Enables auto layout
+        topImageContainerView.translatesAutoresizingMaskIntoConstraints = false
+        
+        topImageContainerView.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
+        
+        
+        
+        topImageContainerView.heightAnchor.constraint(equalTo: view.heightAnchor, multiplier: 0.5).isActive = true
+        
         bearImageView.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive =  true
         bearImageView.topAnchor.constraint(equalTo: view.topAnchor, constant: 100).isActive = true
         bearImageView.widthAnchor.constraint(equalToConstant: 200).isActive = true

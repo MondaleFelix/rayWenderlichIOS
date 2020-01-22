@@ -59,10 +59,10 @@
 				6F4AD8B123D7AB3F00B94009 /* AppDelegate.swift */,
 				6F4AD8B323D7AB3F00B94009 /* SceneDelegate.swift */,
 				6F4AD8B723D7AB3F00B94009 /* Main.storyboard */,
+				6F4AD8C523D7EDBE00B94009 /* ChecklistViewController.swift */,
 				6F4AD8BA23D7AB4000B94009 /* Assets.xcassets */,
 				6F4AD8BC23D7AB4000B94009 /* LaunchScreen.storyboard */,
 				6F4AD8BF23D7AB4000B94009 /* Info.plist */,
-				6F4AD8C523D7EDBE00B94009 /* ChecklistViewController.swift */,
 			);
 			path = Checklists;
 			sourceTree = "<group>";
